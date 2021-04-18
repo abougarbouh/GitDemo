@@ -48,6 +48,7 @@ public class stepDefination extends base {
     public void verify_that_user_is_successfully_logged_in() {
         portalHomePage p = new portalHomePage(driver);
        Assert.assertTrue(p.getSearchBox().isDisplayed());
+       //i want to see it in gethub
     }
 
 
